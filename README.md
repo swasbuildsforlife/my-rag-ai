@@ -48,7 +48,7 @@ My-RAG-AI/
 
 🚀 Run Locally
 
-git clone <your-repository-url>
+git clone https://github.com/swasbuildsforlife/my-rag-ai.git
 cd My-RAG-AI
 pip install -r requirements.txt
 streamlit run app.py
