@@ -1,0 +1,7 @@
+streamlit
+pypdf
+langchain-community
+langchain-text-splitters
+chromadb
+sentence-transformers
+google-genai
