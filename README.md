@@ -1,132 +1,67 @@
 ✦ My RAG AI
 
-«Turn your documents into an intelligent study system.»
+«An AI-powered study assistant that turns your PDFs into an interactive learning workspace.»
 
-An AI-powered Retrieval-Augmented Generation (RAG) study assistant that transforms your PDFs into an interactive knowledge base.
+"🚀 Live Demo" (https://rag-ai-assistance.streamlit.app/)
 
-Upload your study material, ask questions, generate quizzes, create flashcards, build revision notes, and prepare important questions — all powered by your own documents.
+⚡ What it does
 
-✨ What You Can Do
+Upload your study PDFs and chat with them using Retrieval-Augmented Generation (RAG).
 
-💬 Ask AI
-Chat with your uploaded documents and get context-grounded answers with source references.
-
-📝 Quiz Generator
-Generate MCQ quizzes from your study material with difficulty selection and automatic scoring.
-
-🧠 AI Flashcards
-Turn important concepts into interactive revision cards for quick learning.
-
-📖 Smart Summary
-Generate quick revision sheets, detailed notes, or exam-focused summaries.
-
-🎯 Important Questions
-Generate exam-focused questions and identify the key points required for strong answers.
-
-🔎 Smart Retrieval
-Uses semantic search and MMR retrieval to find relevant information from your documents.
-
----
+- 💬 Ask AI — Ask questions grounded in your uploaded documents
+- 📝 Quiz Generator — Generate quizzes from your study material
+- 🧠 Flashcards — Create interactive revision flashcards
+- 📖 Smart Summary — Get focused summaries of your PDFs
+- 🎯 Important Questions — Find questions worth preparing
+- 📚 Source Citations — See which document/page supports an answer
 
 🧠 RAG Pipeline
 
-PDF Documents
-      ↓
+PDF Upload
+    ↓
 Text Extraction
-      ↓
-Text Chunking
-      ↓
+    ↓
+Chunking
+    ↓
 HuggingFace Embeddings
-      ↓
-ChromaDB Vector Store
-      ↓
-MMR Retrieval
-      ↓
-Relevant Context
-      ↓
-Google Gemini
-      ↓
-Answer + Sources
-
----
+    ↓
+Chroma Vector Database
+    ↓
+Relevant Context Retrieval
+    ↓
+Gemini AI
+    ↓
+Grounded Answer
 
 🛠️ Tech Stack
 
-Technology| Role
-🐍 Python| Core application
-🎈 Streamlit| Web interface
-🔗 LangChain| Text processing & retrieval
-🗄️ ChromaDB| Vector database
-🤗 HuggingFace| Embeddings
-✦ Google Gemini| AI generation
-📄 PyPDF| PDF extraction
+Python · Streamlit · Google Gemini · LangChain · ChromaDB · HuggingFace Embeddings
 
----
+📁 Project Structure
 
-🚀 Run Locally
-
-git clone YOUR_REPOSITORY_URL
-cd my-rag-ai
-pip install -r requirements.txt
-streamlit run app.py
-
-Set your Gemini API key as an environment variable:
-
-GEMINI_API_KEY
-
-«🔐 Never commit your API key or other secrets to GitHub.»
-
----
-
-📂 Project Structure
-
-my-rag-ai/
+My-RAG-AI/
 ├── app.py
 ├── test.py
 ├── requirements.txt
-├── .gitignore
-└── README.md
+├── README.md
+└── .gitignore
+
+🚀 Run Locally
+
+git clone <your-repository-url>
+cd My-RAG-AI
+pip install -r requirements.txt
+streamlit run app.py
+
+Set your Gemini API key as:
+
+GEMINI_API_KEY=your_api_key
+
+🌐 Live App
+
+Try My RAG AI:
+https://rag-ai-assistance.streamlit.app/
 
 ---
 
-🎯 Why I Built This
-
-My goal was to build more than a basic chatbot and gain practical experience with modern AI systems.
-
-This project combines:
-
-- Retrieval-Augmented Generation
-- Vector databases
-- Text embeddings
-- Semantic search
-- MMR retrieval
-- Prompt engineering
-- Generative AI
-- AI-powered educational tools
-
----
-
-🔮 What's Next
-
-- 📌 Persistent knowledge bases
-- 📌 Better citation highlighting
-- 📌 PDF page previews
-- 📌 Subject-wise workspaces
-- 📌 Study progress tracking
-- 📌 Improved retrieval evaluation
-
----
-
-👨‍💻 Built By
-
-Swastik
-
-"AI" · "RAG" · "Data Science" · "Intelligent Systems"
-
----
-
-<p align="center">✦ My RAG AI
-
-Built with Python · Streamlit · LangChain · ChromaDB · HuggingFace · Gemini
-
-</p>
+Built with ✦ by Swastik
