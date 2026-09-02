@@ -3,6 +3,7 @@
 «An AI-powered study assistant that turns your PDFs into an interactive learning workspace.»
 
 "🚀 Live Demo" (https://rag-ai-assistance.streamlit.app/)
+![My RAG AI](rag-ai-home.png)
 
 ⚡ What it does
 
